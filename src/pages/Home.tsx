@@ -18,6 +18,7 @@ interface College {
 }
 
 const colleges: College[] = [
+  // Pune Colleges
   {
     name: "College of Engineering Pune (COEP)",
     district: "Pune",
@@ -71,6 +72,223 @@ const colleges: College[] = [
     placements: { average: "4.8 LPA", highest: "28 LPA" },
     img: "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3075/2018/7/16/Sinhgad-College-of-Engineering-Pune-Campus6.jpg",
     site: "http://scoe.sinhgad.edu/"
+  },
+  {
+    name: "Army Institute of Technology (AIT Pune)",
+    district: "Pune",
+    ranking: 7,
+    cutoff: { CSE: 95.0, IT: 94.2, ENTC: 92.0 },
+    placements: { average: "6.5 LPA", highest: "39 LPA" },
+    img: "https://www.targetadmission.com/img/colleges/newc/3327-59143.jpg",
+    site: "https://www.aitpune.com/"
+  },
+  {
+    name: "DY Patil College of Engineering (Akurdi)",
+    district: "Pune",
+    ranking: 8,
+    cutoff: { CSE: 92.8, IT: 91.5, ENTC: 90.0 },
+    placements: { average: "5.2 LPA", highest: "29 LPA" },
+    img: "https://th.bing.com/th/id/OIP.y3CjnT8AWJKnpy7UFUUi1wHaEK?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://engg.dypvp.edu.in/"
+  },
+  {
+    name: "AISSMS College of Engineering",
+    district: "Pune",
+    ranking: 9,
+    cutoff: { CSE: 92.1, IT: 91.2, Mechanical: 89.9 },
+    placements: { average: "4.9 LPA", highest: "26 LPA" },
+    img: "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/5030/2018/5/18/AISSMS-College-of-Engineering-Pune1.jpg",
+    site: "https://aissmscoe.com/"
+  },
+  {
+    name: "MIT College of Engineering (MITCOE)",
+    district: "Pune",
+    ranking: 10,
+    cutoff: { CSE: 93.9, IT: 92.7, Mechanical: 90.4 },
+    placements: { average: "5.3 LPA", highest: "31 LPA" },
+    img: "https://img.jagranjosh.com/images/2022/March/1132022/8.jpg",
+    site: "http://www.mitcoe.ac.in/"
+  },
+  {
+    name: "Pimpri Chinchwad College of Engineering (PCCOE)",
+    district: "Pune",
+    ranking: 11,
+    cutoff: { CSE: 94.0, IT: 93.0, Mechanical: 91.2 },
+    placements: { average: "5.5 LPA", highest: "25 LPA" },
+    img: "https://tse3.mm.bing.net/th/id/OIP.3N2nPRdPlc71w_H8eGlr5gHaEZ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://pccoepune.com/"
+  },
+  {
+    name: "Cummins College of Engineering for Women, Pune",
+    district: "Pune",
+    ranking: 12,
+    cutoff: { CSE: 91.5, IT: 90.0, ENTC: 88.3 },
+    placements: { average: "5.5 LPA", highest: "22 LPA" },
+    img: "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3740/2018/8/20/MKSSSs-Cummins-College-of-Engineering-for-Women-Pune-campus4.jpg",
+    site: "https://www.cumminscollege.org/"
+  },
+  {
+    name: "Symbiosis Institute of Technology (SIT)",
+    district: "Pune",
+    ranking: 13,
+    cutoff: { CSE: 90.7, IT: 89.8, Mechanical: 88.0 },
+    placements: { average: "6.0 LPA", highest: "30 LPA" },
+    img: "https://tse4.mm.bing.net/th/id/OIP.VxhyL_raH3KK8k_YBjUjRgHaDM?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://www.sitpune.edu.in/"
+  },
+  {
+    name: "MIT Academy of Engineering (MITAOE, Alandi)",
+    district: "Pune",
+    ranking: 14,
+    cutoff: { CSE: 92.6, IT: 91.7, ENTC: 90.2 },
+    placements: { average: "4.8 LPA", highest: "18 LPA" },
+    img: "https://www.mycampusreview.com/images/postgallery/1694672805mitacedamybanner.jpg",
+    site: "https://www.mitaoe.ac.in/"
+  },
+
+  // Mumbai Colleges
+  {
+    name: "K. J. Somaiya Institute of Engineering & Information Technology (KJSIET)",
+    district: "Mumbai",
+    ranking: 1,
+    cutoff: { CSE: 88.0, IT: 87.0, Mechanical: 83.5, ENTC: 84.0 },
+    placements: { average: "2.6 LPA", highest: "4.8 LPA" },
+    img: "https://www.highereducationdigest.com/wp-content/uploads/2020/04/Img-4-13-550x330.jpg",
+    site: "https://kjsit.somaiya.edu.in/en"
+  },
+  {
+    name: "Thadomal Shahani Engineering College (TSEC)",
+    district: "Mumbai",
+    ranking: 2,
+    cutoff: { CSE: 86.5, IT: 85.2, Mechanical: 81.0, ENTC: 81.5 },
+    placements: { average: "2.0 LPA", highest: "3.5 LPA" },
+    img: "https://tse1.mm.bing.net/th/id/OIP.bXBIxRx_uNwSCcq6NSNl_gHaFR?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://tsec.edu/"
+  },
+  {
+    name: "Vivekanand Education Society's Institute of Technology (VESIT)",
+    district: "Mumbai",
+    ranking: 3,
+    cutoff: { CSE: 86.8, IT: 85.5, Mechanical: 81.5, ENTC: 82.0 },
+    placements: { average: "2.1 LPA", highest: "3.7 LPA" },
+    img: "https://th.bing.com/th/id/OIP.syrrDIrHMrjCpfNkJAw0TwHaDt?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://vesit.ves.ac.in/"
+  },
+  {
+    name: "Sardar Vallabhbhai Patel Institute of Technology (SVIT Mumbai)",
+    district: "Mumbai",
+    ranking: 4,
+    cutoff: { CSE: 87.5, IT: 86.3, Mechanical: 82.5, ENTC: 83.0 },
+    placements: { average: "2.4 LPA", highest: "4.3 LPA" },
+    img: "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3249/2018/11/1/Campus%20view%20of%20Sardar%20Vallabhbhai%20Patel%20Institute%20of%20Technology%20Anand_Campus-view.png",
+    site: "https://svit.edu.in/"
+  },
+  {
+    name: "Universal College of Engineering (UCoE)",
+    district: "Mumbai",
+    ranking: 5,
+    cutoff: { CSE: 87.0, IT: 85.8, Mechanical: 81.8, ENTC: 82.5 },
+    placements: { average: "2.2 LPA", highest: "3.8 LPA" },
+    img: "https://th.bing.com/th/id/OIP.dCuZA1x6i91rb-vyUjkXbQHaEc?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://universalcollege.edu.in/"
+  },
+
+  // Nagpur Colleges
+  {
+    name: "Visvesvaraya National Institute of Technology (VNIT), Nagpur",
+    district: "Nagpur",
+    ranking: 1,
+    cutoff: { CSE: 95.0, ECE: 92.0, Mechanical: 90.0, Civil: 89.5 },
+    placements: { average: "11.9 LPA", highest: "32 LPA" },
+    img: "https://images.careerindia.com/college-photos/8381/vnit-campus-1_1462173673.jpg",
+    site: "https://vnit.ac.in/"
+  },
+  {
+    name: "IIIT Nagpur",
+    district: "Nagpur",
+    ranking: 2,
+    cutoff: { CSE: 93.0, ECE: 90.5, IT: 89.0 },
+    placements: { average: "11.0 LPA", highest: "47 LPA" },
+    img: "https://iirfranking.com/news/wp-content/uploads/2022/10/IIIT-Nagpur.webp",
+    site: "https://iiitnagpur.edu.in/"
+  },
+  {
+    name: "Yashwantrao Chavan College of Engineering (YCCE), Wanadongri",
+    district: "Nagpur",
+    ranking: 3,
+    cutoff: { CSE: 90.0, ECE: 88.0, Mechanical: 85.0 },
+    placements: { average: "7.5 LPA", highest: "18 LPA" },
+    img: "https://media.getmyuni.com/azure/college-image/big/yeshwantrao-chavan-college-of-engineering-ycce-nagpur.jpg",
+    site: "https://ycce.edu/"
+  },
+  {
+    name: "G. H. Raisoni College of Engineering (GHRCE), Nagpur",
+    district: "Nagpur",
+    ranking: 4,
+    cutoff: { CSE: 89.0, ECE: 86.5, Mechanical: 83.0 },
+    placements: { average: "5.5 LPA", highest: "16 LPA" },
+    img: "https://gyaanarth.com/wp-content/uploads/2022/05/gh-raisoni-college-of-engineering-ghrce-nagpur-1.jpg",
+    site: "https://ghrce.raisoni.net/"
+  },
+
+  // Kolhapur Colleges
+  {
+    name: "KIT's College of Engineering, Kolhapur",
+    district: "Kolhapur",
+    ranking: 1,
+    cutoff: { CSE: 92.0, ECE: 90.5, Mechanical: 88.0, Electrical: 89.0 },
+    placements: { average: "7.0 LPA", highest: "22 LPA" },
+    img: "https://www.gkseries.com/blog/wp-content/uploads/2020/04/KITs-College-of-Engineering-Kolhapur.jpg",
+    site: "https://kitcoek.in/"
+  },
+  {
+    name: "Tatyasaheb Kore Institute of Engineering & Technology (TKIET), Warananagar",
+    district: "Kolhapur",
+    ranking: 2,
+    cutoff: { CSE: 90.0, ECE: 88.0, Mechanical: 85.0, Civil: 84.5 },
+    placements: { average: "6.5 LPA", highest: "20 LPA" },
+    img: "https://img.jagranjosh.com/images/2024/March/2732024/Tatyasaheb-Kore-Institute-of-Engineering-and-Technology-Kolhapur-Campus-View-2.png",
+    site: "http://tkietwarana.ac.in/"
+  },
+
+  // Solapur Colleges
+  {
+    name: "Walchand Institute of Technology",
+    district: "Solapur",
+    ranking: 1,
+    cutoff: { CSE: 85.0, IT: 83.5, Mechanical: 80.0, ENTC: 81.5 },
+    placements: { average: "4.5 LPA", highest: "16 LPA" },
+    img: "https://tse2.mm.bing.net/th/id/OIP.lkRw7PblVcx7SgRrzNls1wHaDl?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://witsolapur.org/"
+  },
+  {
+    name: "A. G. Patil Institute of Technology",
+    district: "Solapur",
+    ranking: 2,
+    cutoff: { CSE: 78.0, IT: 76.5, Mechanical: 74.0, ENTC: 75.0 },
+    placements: { average: "3.2 LPA", highest: "8 LPA" },
+    img: "https://tse1.mm.bing.net/th/id/OIP.QLI1EdR0XciRJvfBPp_m5wHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    site: "https://www.agpit.edu.in/"
+  },
+
+  // Aurangabad Colleges
+  {
+    name: "Maharashtra Institute of Technology, Aurangabad",
+    district: "Chhatrapati Sambhaji Nagar",
+    ranking: 1,
+    cutoff: { CSE: 92.0, ECE: 90.0, Mechanical: 87.0, Civil: 85.0, AIDS: 89.0 },
+    placements: { average: "6.5 LPA", highest: "22 LPA" },
+    img: "https://tse1.mm.bing.net/th/id/OIP.icPcx_PtKmlRgVsY1uAmjAHaE8?pid=Api&P=0&h=180",
+    site: "https://mit.asia/"
+  },
+  {
+    name: "Government College of Engineering, Aurangabad",
+    district: "Chhatrapati Sambhaji Nagar",
+    ranking: 2,
+    cutoff: { CSE: 90.0, ECE: 88.0, Mechanical: 85.0, Electrical: 83.5, AIDS: 87.5 },
+    placements: { average: "6.0 LPA", highest: "20 LPA" },
+    img: "https://media.getmyuni.com/azure/college-images-test/government-college-of-engineering-gce-aurangabad/747edb58105341dcb1b67516827e67c0.jpeg",
+    site: "https://geca.ac.in/"
   }
 ];
 
